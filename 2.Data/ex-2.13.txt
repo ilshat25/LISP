@@ -1,0 +1,10 @@
+a = [Ca(1 - Pa), Ca(1 + Pa)]
+b = [Cb(1 - Pb), Cb(1 + Pb)]
+
+a*b = [Ca*Cb(1 - Pa - Pb + Pa*Pb),
+       Ca*Cb(1 + Pa + Pb + Pa*Pb)] =
+    = {Pa*Pb ~ 0} = 
+    = [Ca*Cb(1 - (Pa + Pb)),
+       Ca*Cb(1 + (Pa + Pb))]
+
+P = Pa + Pb, if Pa*Pb ~ 0

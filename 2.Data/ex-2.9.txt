@@ -1,0 +1,29 @@
+a = [Ca - Ra,                   
+     Ca + Ra]
+b = [Cb - Rb, 
+     Cb + Rb]
+
+a + b = [Ca + Cb - (Ra + Rb),
+         Ca + Cb + (Ra + Rb)]
+
+Cab = Ca + Cb
+Rab = Ra + Rb => radis of sum only deends on radius of args
+
+
+a - b = [Ca - Cb - (Ra - Rb),
+         Ca - Cb + (Ra - Rb)]
+
+Cab = Ca - Cb
+Rab = Ra - Rb => radius of sub only depends on radius of args
+
+If the radius of the result was a function of the radius of the inputs,
+then multiplying diferent intervals with the same radius should give
+the same answer
+
+[0, 10] * [1, 2] = [0, 20]
+ R = 5    R = 0.5   R = 10
+[1, 11] * [1, 2] = [1, 22]
+ R = 5    R = 0.5   R = 10.5
+
+ So, radius of multiplying or division is not a function of the radius
+ of the args. 

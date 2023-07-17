@@ -1,0 +1,12 @@
+All 3 problems point to the difficulty of "identity" when dealing with intervals
+
+A = [2, 8]
+
+We would assume that result of A/A is equal to [1, 1], but actually it's not...
+
+A/A = [0.25, 4]
+
+So, any time we do algebraic manipulation of an equalation involving intervals,
+we need to be careful any time we introduce the same interval.
+
+2.16 It's difficult....
